@@ -10,7 +10,7 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <Routes>
-                    <Route exact path='/' element={<VendingMachine />} />
+                    <Route path='/' element={<VendingMachine />} />
                     {SnackList.map((props) => {
                         return <Route key={`${props.name}-Route`} path={`/${props.name}`} element={<Snack key={props.name} {...props} />} />
                     })}
