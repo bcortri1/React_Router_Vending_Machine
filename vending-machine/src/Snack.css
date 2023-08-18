@@ -1,0 +1,49 @@
+.Snack a {
+    display: absolute;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    width: 50px;
+    height: auto;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Snack a:active {
+    color: #EEEEEE;
+    background-color: #333333;
+}
+
+.Snack button {
+    display: absolute;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    width: 50px;
+    height: auto;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Snack button:active {
+    color: #EEEEEE;
+    background-color: #333333;
+}
+
+.Snack p {
+    font-weight: bold;
+}
